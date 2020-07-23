@@ -1,0 +1,5 @@
+NOTAS:
+
+1. No se permiten sentencias ALTER o DROP en PL/SQL
+2. Otra forma de pasar los argumentos a una función o procedimiento es de la siguiente forma: 
+NOMBRE_DEL_PARAMETRO=>VALOR. Ejm: EXECUTE DBMS_UTILITY.COMPILE_SCHEMA('HR', COMPILE_ALL=>FALSE, REUSE_SETTINGS=>TRUE);
